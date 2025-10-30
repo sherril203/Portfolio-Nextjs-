@@ -47,7 +47,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-orange-100 to-gray-50 py-12 px-6 md:px-12" id="projects">
+    <div className="bg-linear-to-r from-orange-100 to-gray-50 py-12 px-6 md:px-12" id="projects">
       <h1
         className="text-center text-3xl sm:text-4xl font-extrabold text-gray-800 mb-10"
         data-aos="fade-up"

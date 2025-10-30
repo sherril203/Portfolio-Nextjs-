@@ -10,7 +10,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-orange-100 to-gray-50 py-10 px-6 md:px-16 lg:px-24"
+    <div className="bg-linear-to-r from-orange-100 to-gray-50 py-10 px-6 md:px-16 lg:px-24"
     id="about">
       <div
         className="max-w-4xl mx-auto text-center md:text-left"

@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-orange-100 to-gray-50 py-12 px-6 md:px-12"
+      className="bg-linear-to-r from-orange-100 to-gray-50 py-12 px-6 md:px-12"
       id="contact"
     >
       <div className="max-w-3xl mx-auto text-center">

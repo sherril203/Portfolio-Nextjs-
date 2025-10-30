@@ -36,7 +36,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-orange-100 to-gray-50 py-12 px-6 md:px-12">
+    <section className="bg-linear-to-r from-orange-100 to-gray-50 py-12 px-6 md:px-12">
       <h1
         className="text-center font-extrabold text-3xl sm:text-4xl text-gray-800 mb-10"
         data-aos="fade-up"

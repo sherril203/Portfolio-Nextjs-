@@ -10,7 +10,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-orange-100 to-gray-50 py-20 px-6 flex flex-col items-center justify-center text-center"
+    <div className="bg-linear-to-r from-orange-100 to-gray-50 py-20 px-6 flex flex-col items-center justify-center text-center"
     id="intro">
       <h1
         data-aos="fade-up"

@@ -33,7 +33,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-orange-100 to-gray-50 w-full py-10 " id="education">
+    <div className="bg-linear-to-r from-orange-100 to-gray-50 w-full py-10 " id="education">
       <h1
         className="text-center font-bold text-3xl sm:text-4xl mb-8 text-gray-800"
         data-aos="fade-up"
