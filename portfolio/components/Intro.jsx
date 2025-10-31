@@ -38,7 +38,7 @@ const Intro = () => {
           className="bg-orange-500 hover:bg-orange-600 text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md transition-all"
         >Contact Me</Link>
         <Link
-          href="#resume"
+          href="/Resume"
           className="border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md transition-all"
         >View Resume</Link>
       </div>
