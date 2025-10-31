@@ -7,7 +7,7 @@ import { IoCall } from "react-icons/io5";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Contact = () => {
+const page = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -23,7 +23,7 @@ const Contact = () => {
           className="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-6"
           data-aos="fade-up"
         >
-          Contact Me
+          Contact <span  className="text-orange-500">Me</span>
         </h1>
 
 
@@ -81,4 +81,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default page;

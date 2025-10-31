@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-8 text-lg font-medium">
           <li>
             <Link
-              href="#about"
+              href="/#about"
               className="hover:text-gray-100 transition-colors"
             >
               About Me
@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#projects"
+              href="/#projects"
               className="hover:text-gray-100 transition-colors"
             >
               Projects
@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#work"
+              href="/#work"
               className="hover:text-gray-100 transition-colors"
             >
               Work
@@ -41,7 +41,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="/#contact"
               className="hover:text-gray-100 transition-colors"
             >
               Contact
@@ -69,28 +69,28 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-orange-500 text-white text-center py-4 space-y-4 animate-fadeIn">
           <Link
-            href="#about"
+            href="/#about"
             className="block hover:bg-orange-400 py-2 transition"
             onClick={() => setMenuOpen(false)}
           >
             About Me
           </Link>
           <Link
-            href="#projects"
+            href="/#projects"
             className="block hover:bg-orange-400 py-2 transition"
             onClick={() => setMenuOpen(false)}
           >
             Projects
           </Link>
           <Link
-            href="#work"
+            href="/#work"
             className="block hover:bg-orange-400 py-2 transition"
             onClick={() => setMenuOpen(false)}
           >
             Work
           </Link>
           <Link
-            href="#contact"
+            href="/#contact"
             className="block hover:bg-orange-400 py-2 transition"
             onClick={() => setMenuOpen(false)}
           >

@@ -4,13 +4,13 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const AboutMe = () => {
+const Page = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
-    <div className="bg-linear-to-r from-orange-100 to-gray-50 py-10 px-6 md:px-16 lg:px-24"
+    <div className="bg-linear-to-r from-orange-100 to-gray-50  p-28 md:px-16 lg:px-30"
     id="about">
       <div
         className="max-w-4xl mx-auto text-center md:text-left"
@@ -18,7 +18,7 @@ const AboutMe = () => {
       >
 
         <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 text-center">
-          About Me
+          About <span  className="text-orange-500">Me</span>
         </h1>
 
         <h2
@@ -60,4 +60,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Page;

@@ -1,11 +1,11 @@
 import React from 'react'
-import AboutMe from '@/components/AboutMe'
-import Contact from '@/components/Contact'
-import Projects from '@/components/Projects'
-import Work from '@/components/Work'
-import Skills from '@/components/Skills'
-import Intro from '@/components/Intro'
-import Education  from '@/components/Education'
+import AboutMe from '@/app/AboutMe/page.jsx'
+import Contact from '@/app/Contact/page.jsx'
+import Projects from '@/app/Projects/page.jsx'
+import Work from '@/app/Work//page.jsx'
+import Skills from '@/app/Skills/page.jsx'
+import Intro from '@/app/Intro/page.jsx'
+import Education  from '@/app/Education/page.jsx'
 const page = () => {
   return (
     <div>

@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Work = () => {
+const Page = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -33,12 +33,12 @@ const Work = () => {
   ];
 
   return (
-    <div className="bg-linear-to-r from-orange-100 to-gray-50 py-12 px-6 md:px-12" id="work">
+    <div className="bg-linear-to-r from-orange-100 to-gray-50 p-20 md:px-12" id="work">
       <h1
         className="text-center font-extrabold text-3xl sm:text-4xl text-gray-800 mb-10"
         data-aos="fade-up"
       >
-        Work Experience
+        Work <span className="text-orange-500">Experience</span>
       </h1>
 
       <div className="flex flex-wrap justify-center gap-8">
@@ -81,4 +81,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Page;
