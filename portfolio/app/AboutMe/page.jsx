@@ -10,7 +10,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="bg-linear-to-r from-orange-100 to-gray-50  p-28 md:px-16 lg:px-30"
+    <div className="bg-linear-to-r from-orange-100 to-gray-50  p-20 md:px-16 lg:px-30"
     id="about">
       <div
         className="max-w-4xl mx-auto text-center md:text-left"
