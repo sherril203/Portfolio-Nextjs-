@@ -14,7 +14,7 @@ const Page = () => {
       duration: "February 2025 - Present",
       description:
         "Developed responsive web interfaces using HTML, CSS, and Bootstrap; created interactive layouts using JavaScript, React.js for framework, TailwindCSS for responsive design, and Figma for UI/UX design. Also worked on backend development with Node.js, Express, and MongoDB during eight months of hands-on training.",
-      tech_stack: ["Figma", "HTML", "CSS", "JavaScript", "Bootstrap", "MERN"],
+      tech_stack: ["Figma", "HTML", "CSS", "JavaScript", "Bootstrap", "MERN","Tailwindcss"],
     },
     {
       title: "Web Designer Intern | Digit Info Solutions",
