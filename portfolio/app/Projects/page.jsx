@@ -18,6 +18,7 @@ const Page = () => {
         "Built a craft and art supply e-commerce website using the MERN stack and TailwindCSS with a fully responsive frontend interface. Developed core pages and styling for a smooth browsing and user-friendly purchasing experience.",
       Role: "Frontend & Backend Developer",
       link: "https://github.com/sherril203/DIY-website-React",
+      live_link:"https://artsworld.vercel.app/"
     },
     {
       title: "Spawell",
@@ -26,6 +27,7 @@ const Page = () => {
         "Developed a spa and wellness booking web app using the MERN stack. Implemented user authentication, booking functionality, and responsive design with TailwindCSS.",
       Role: "Full Stack Developer",
       link: "https://github.com/sherril203/spa",
+      live_link:"https://spawell.vercel.app/"
     },
     {
       title: "Food Hub",
