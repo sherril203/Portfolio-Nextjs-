@@ -11,7 +11,7 @@ const Page = () => {
   const workExperience = [
     {
       title: "MERN Stack Developer Intern | WHY Global Services",
-      duration: "February 2025 - Present",
+      duration: "January 2025 - November 2025",
       description:
         "Developed responsive web interfaces using HTML, CSS, and Bootstrap; created interactive layouts using JavaScript, React.js for framework, TailwindCSS for responsive design, and Figma for UI/UX design. Also worked on backend development with Node.js, Express, and MongoDB during eight months of hands-on training.",
       tech_stack: ["Figma", "HTML", "CSS", "JavaScript", "Bootstrap", "MERN","Tailwindcss"],
